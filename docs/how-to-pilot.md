@@ -77,6 +77,12 @@ At the end of the quarter, review:
 - Were confidence tiers calibrated?
 - Were ranges sharp enough to plan against?
 
+Add one implementation decision log:
+
+- What rules will remain mandatory next quarter?
+- What rules will stay experimental?
+- Which metrics triggered process changes, and why?
+
 ---
 
 ## Metrics to track
@@ -113,3 +119,17 @@ Use team-level data for capacity conversations:
 - quality trends
 
 Capacity is a team-level question, not a per-ticket leverage calculation.
+
+---
+
+## Common pilot failure patterns
+
+Watch for these anti-patterns during weekly review:
+
+1. **Premature certainty**: High confidence with wide ranges.
+2. **Mode drift**: Excessive AIDEM-H because tickets are oversized.
+3. **Lite overuse**: Risk factors suggest Full, but Lite is selected anyway.
+4. **Reference lag**: AIDEM-N estimates based on stale tool/model behavior.
+5. **Metric overreaction**: Policy changes made before sample size is meaningful.
+
+If any anti-pattern appears for two consecutive sprints, apply the related remediation playbook before changing capacity assumptions.
