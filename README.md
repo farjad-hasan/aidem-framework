@@ -58,6 +58,20 @@ AIDEM gives teams a structured way to discuss those tradeoffs before committing 
 
 ---
 
+## Quick start (first 2 weeks)
+
+If you are adopting AIDEM for the first time, use this order:
+
+1. Read `docs/aidem-framework.md` for mode definitions and risk logic.
+2. Run one sprint using `templates/lite-template.md` for low-risk tickets.
+3. Require `templates/full-template.md` for High/Critical or unclear work.
+4. At sprint end, review calibration and range width using `docs/dashboard-patch.md`.
+5. Apply remediations from `governance/remediation-playbooks.md` for any flagged metrics.
+
+Recommended pilot sequence is documented in `docs/how-to-pilot.md`.
+
+---
+
 ## The three AIDEM modes
 
 ### AIDEM-T — Transition Mode
@@ -217,6 +231,16 @@ Rule:
   risk-scorecard.md
   remediation-playbooks.md
 ```
+
+---
+
+## Suggested adoption checklist
+
+- [ ] Define when teams should default to AIDEM-T vs AIDEM-N.
+- [ ] Agree the team-level definition of "actual effort" before Sprint 1.
+- [ ] Decide who owns dashboard updates and weekly calibration review.
+- [ ] Set a minimum sample-size rule (`n >= 10`) before policy changes.
+- [ ] Confirm escalation path for High/Critical risk tickets.
 
 ---
 
